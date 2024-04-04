@@ -1,0 +1,23 @@
+.presentation-page {
+    background-color: var(--corSecundaria);
+    padding: 20px;
+    border: 1px solid var(--corGrade);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-page h1 {
+    color: var(--corPrincipal);
+    margin-bottom: 10px;
+}
+
+.presentation-page p {
+    color: var(--corPrincipal);
+}

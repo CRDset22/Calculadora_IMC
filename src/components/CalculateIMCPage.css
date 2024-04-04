@@ -1,0 +1,48 @@
+.calculate-imc-page {
+    background-color: var(--corSecundaria);
+    padding: 20px;
+    border: 1px solid var(--corGrade);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-fields {
+    margin-bottom: 10px;
+    width: 25%; 
+}
+
+.input-fields label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-fields input {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border: 1px solid var(--corGrade);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.input-fields button {
+    padding: 10px 20px;
+    background-color: var(--corBotao);
+    color: var(--corGrade);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%; 
+    text-align: center; 
+}
